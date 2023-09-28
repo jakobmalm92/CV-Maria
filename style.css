@@ -17,3 +17,22 @@ body {
         "aside main";
     grid-template-columns: 1fr 2fr;
 }
+
+.container {
+    background-color: rgb(38, 37, 47);
+}
+
+header {
+    grid-area: header;
+}
+
+header h1 {
+    color: azure;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 40px;
+    margin: auto 0;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
