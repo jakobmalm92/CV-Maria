@@ -5,3 +5,15 @@ body {
     margin: 0;
     font-family: 'Merriweather', serif;
 }
+
+.grid-container {
+    max-width: 1500px;
+    display: grid;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px 200px 50px 200px;
+    grid-template-areas:
+        "aside header"
+        "aside main";
+    grid-template-columns: 1fr 2fr;
+}
