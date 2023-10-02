@@ -36,3 +36,92 @@ header h1 {
     font-size: 60px;
     letter-spacing: 10px;
 }
+
+header p {
+    color: azure;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+aside {
+    grid-area: aside;
+    display: grid;
+    background-color: rgb(229, 217, 210);
+    padding-bottom: 150px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+
+}
+
+.sidebar img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 60px;
+
+}
+
+
+.sidebar h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    background-color: rgb(38, 37, 47);
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.sidebar p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.main-title {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: rgb(38, 37, 47);
+    letter-spacing: 1px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.content-h3 {
+    color: rgb(38, 37, 47);
+    margin-left: 60px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+main p {
+    color: rgb(38, 37, 47);
+    margin-left: 60px;
+    margin-right: 170px;
+}
+
+header,
+aside,
+main {}
