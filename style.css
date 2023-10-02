@@ -1,13 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
     display: flex;
     justify-content: center;
-    padding: 0;
-    margin: 0;
     font-family: 'Merriweather', serif;
 }
 
 .grid-container {
-    max-width: 1500px;
+    max-width: 1000px;
     display: grid;
     margin-left: 200px;
     margin-right: 200px;
@@ -29,10 +34,10 @@ header h1 {
     color: azure;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 100px;
     padding-bottom: 40px;
     margin: auto 0;
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: 10px;
 }
 
@@ -40,9 +45,9 @@ header p {
     color: azure;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 50px;
-    font-size: 30px;
-    letter-spacing: 2px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 
 aside {
@@ -50,6 +55,7 @@ aside {
     display: grid;
     background-color: rgb(229, 217, 210);
     padding-bottom: 150px;
+    padding: 40px;
 }
 
 .foto {
@@ -61,10 +67,10 @@ aside {
 }
 
 .sidebar img {
-    height: 250px;
-    width: 250px;
+    height: 275px;
+    width: 275px;
     border-radius: 50%;
-    margin-top: 60px;
+    margin-top: 90px;
 
 }
 
@@ -72,24 +78,28 @@ aside {
 .sidebar h2 {
     color: white;
     text-transform: uppercase;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 15px;
+  /*   margin-left: 50px;
+    margin-right: 50px; */
+    padding: 10px;
     background-color: rgb(38, 37, 47);
     font-size: 15px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .sidebar p {
-    margin-left: 60px;
-    margin-right: 60px;
+ /*    margin-left: 60px;
+    margin-right: 60px; */
+    padding: 10px;
+    margin: 0;
+    
 }
 
 main {
     grid-area: main;
     display: grid;
-    padding-bottom: 40px;
-    padding-top: 10px;
+/*     padding-bottom: 40px;
+    padding-top: 10px; */
+    padding: 25px 80px 50px 50px;
 }
 
 .main-title {
@@ -98,7 +108,7 @@ main {
     margin-left: 50px;
     margin-right: 150px;
     margin-top: 50px;
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(38, 37, 47);
     letter-spacing: 1px;
     font-size: 15px;
@@ -107,17 +117,162 @@ main {
 
 .content-h3 {
     color: rgb(38, 37, 47);
-    margin-left: 60px;
+   /*  margin-left: 60px; */
     letter-spacing: 1px;
+    text-indent: 60px;
+    margin: 0;
 }
-
-
-
 
 
 main p {
     color: rgb(38, 37, 47);
-    margin-left: 60px;
-    margin-right: 250px;
+    padding-left: 60px;
+    padding-right: 175px;
+  /*   margin-left: 60px;
+    margin-right: 250px; */
+    margin: 0;
 }
+
+
+@media (max-width: 1024px) {
+
+    .grid-container {
+
+        grid-template-areas:
+
+            "header"
+
+            "aside"
+
+            "main";
+
+ 
+
+        max-width: 550px;
+
+    }
+
+ 
+
+    aside {
+
+        padding-bottom: 50px;
+
+    }
+
+ 
+
+    .foto {
+
+        padding-bottom: 20px;
+
+    }
+
+}
+
+ 
+
+ 
+
+ 
+
+@media (max-width: 600px) {
+
+ 
+
+    .grid-container {
+
+        grid-template-areas:
+
+            "header"
+
+            "aside"
+
+            "main";
+
+        max-width: auto;
+
+    }
+
+ 
+
+    h1 {
+
+        text-transform: uppercase;
+
+        color: rgb(248, 216, 197);
+
+        text-align: center;
+
+        font-size: 40px;
+
+        letter-spacing: 2px;
+
+    }
+
+ 
+
+    aside {
+
+        padding-bottom: 50px;
+
+    }
+
+ 
+
+ 
+
+    .foto {
+
+        padding-bottom: 20px;
+
+    }
+
+ 
+
+ 
+
+ 
+
+    img {
+
+        border-radius: 50%;
+
+        height: 230px;
+
+        width: 230px;
+
+        margin: 0px;
+
+    }
+
+ 
+
+ 
+
+    h3 {
+
+        padding-left: 5px;
+
+    }
+
+ 
+
+ 
+
+    .background {
+
+        padding-right: 30px;
+
+        padding-left: 10px;
+
+    }
+
+ 
+
+ 
+
+}
+
+
 
