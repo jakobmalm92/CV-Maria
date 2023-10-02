@@ -106,7 +106,7 @@ main {
     color: white;
     text-transform: uppercase;
     margin-left: 50px;
-    margin-right: 150px;
+    margin-right: 80px;
     margin-top: 50px;
     padding: 10px;
     background-color: rgb(38, 37, 47);
@@ -117,20 +117,17 @@ main {
 
 .content-h3 {
     color: rgb(38, 37, 47);
-   /*  margin-left: 60px; */
     letter-spacing: 1px;
     text-indent: 60px;
     margin: 0;
+    padding: 20px 0px 10px 0px;
 }
 
 
 main p {
     color: rgb(38, 37, 47);
-    padding-left: 60px;
-    padding-right: 175px;
-  /*   margin-left: 60px;
-    margin-right: 250px; */
     margin: 0;
+    padding: 10px 130px 10px 60px;
 }
 
 
