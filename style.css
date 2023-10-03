@@ -80,8 +80,6 @@ aside {
 .sidebar h2 {
     color: white;
     text-transform: uppercase;
-  /*   margin-left: 50px;
-    margin-right: 50px; */
     padding: 10px;
     background-color: rgb(38, 37, 47);
     font-size: 15px;
@@ -89,17 +87,15 @@ aside {
 }
 
 .sidebar p {
- /*    margin-left: 60px;
-    margin-right: 60px; */
     padding: 10px;
     margin: 0;
-    
+
 }
 
 main {
     grid-area: main;
     display: grid;
-    padding: 50px 80px 100px 50px;
+    padding: 30px 80px 100px 0px;
     height: auto
 }
 
@@ -108,7 +104,7 @@ main {
     text-transform: uppercase;
     margin-left: 50px;
     margin-right: 80px;
-  margin-top: 20px;
+    margin-top: 20px;
     padding: 10px;
     background-color: rgb(38, 37, 47);
     letter-spacing: 1px;
@@ -144,13 +140,13 @@ main p {
 
             "main";
 
- 
+
 
         max-width: 550px;
 
     }
 
- 
+
 
     aside {
 
@@ -158,7 +154,7 @@ main p {
 
     }
 
- 
+
 
     .foto {
 
@@ -168,15 +164,15 @@ main p {
 
 }
 
- 
 
- 
 
- 
+
+
+
 
 @media (max-width: 600px) {
 
- 
+
 
     .grid-container {
 
@@ -192,7 +188,7 @@ main p {
 
     }
 
- 
+
 
     h1 {
 
@@ -208,7 +204,7 @@ main p {
 
     }
 
- 
+
 
     aside {
 
@@ -216,9 +212,9 @@ main p {
 
     }
 
- 
 
- 
+
+
 
     .foto {
 
@@ -226,11 +222,11 @@ main p {
 
     }
 
- 
 
- 
 
- 
+
+
+
 
     img {
 
@@ -244,9 +240,9 @@ main p {
 
     }
 
- 
 
- 
+
+
 
     h3 {
 
@@ -254,9 +250,9 @@ main p {
 
     }
 
- 
 
- 
+
+
 
     .background {
 
@@ -266,11 +262,8 @@ main p {
 
     }
 
- 
 
- 
+
+
 
 }
-
-
-
