@@ -120,6 +120,10 @@ main {
     padding: 20px 0px 0px 0px;
 }
 
+.font {
+    font-style: italic;
+}
+
 
 main p {
     color: rgb(38, 37, 47);
